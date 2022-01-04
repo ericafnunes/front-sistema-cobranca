@@ -1,0 +1,79 @@
+.clientDetail {
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 100);
+    background-color: #f8f8f9;    
+    overflow-x: hidden;
+}
+
+.container-ClientDetail {
+    display: flex;
+    flex-direction: column;
+    width: 92vw;
+    font-family: "Inter";
+    
+}
+
+.clientDetail-header {
+    width: 100%;
+    padding: 5rem 7rem 0rem 7rem;
+    flex-direction: column;
+}
+
+.clientDetail-header hr {
+    width: 106.9%;
+    margin-left: -4rem;
+    border: 1px solid #acd9c5de;
+}
+
+.clientMenu {
+    height: calc(100vh - 100);
+    background-color: #f0f0f5;
+}
+
+.header-clients--navlink a {
+    color: #0e8750;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.header-clients--navlink .span-details {
+    color: #747488;
+}
+
+.header-clients--navlink .header-tile-complement {
+    margin-left: 2rem;
+}
+
+.title-content {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 72px;
+}
+
+.title-content h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #3f3f55;
+}
+
+.title-content img {
+    width: 32px;
+    height: 32px;
+}
+
+.content-clientDatail {
+    padding: 0% 8% 5.5% 5.5%;
+    width: 92vw;
+    overflow-y: scroll;
+    height: calc(100vh - 115px);
+    background: #F8F8F9;
+    display: flex;
+    flex-direction: column;
+}
+.client-charges--container {
+    margin-top: 30px;
+}

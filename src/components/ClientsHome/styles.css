@@ -1,0 +1,28 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 92vw;
+}
+
+.clients-home {
+    display: flex;
+    overflow: hidden;
+    background: #F8F8F9;
+}
+
+.card-clients {
+    padding: 0% 8% 5.5% 5.5%; 
+    width: 92vw;
+    overflow-y: scroll;
+    height: calc(100vh - 115px);
+    background: #F8F8F9;
+}
+
+.card-clients hr {
+    margin: 0 auto;
+    border: 1px solid #ACD9C5;
+    margin-bottom: 19px;
+    left: 8.8vw;
+    top: 17.5vh;
+    width: 88vw;
+} 

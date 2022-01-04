@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: solid 1px #ACD9C5;
+    margin: 10px 20px;
+    padding-bottom: 10px;
+
+}
+
+.header .title-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    color: #343447;
+}
+
+.header hr {
+    width: 1268px;
+}
+
+.header button {
+    background: transparent;
+}
+
+.user {
+    width: 28px;
+    height: 30px;
+}
+
+.identification {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    position: relative;
+}
+
+.header .identification span {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #0E8750;
+}

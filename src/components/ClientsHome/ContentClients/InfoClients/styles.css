@@ -1,0 +1,69 @@
+.display-client-table {
+    margin: 0 auto;
+    max-width: 99.5%;
+    max-height: 642.49px;
+    width: 80vw;
+    background-color: #ffffff;
+    border-radius: 2.1vw;
+    font-family: 'Nunito';
+    text-align: left;
+    border-collapse: collapse;
+    border-left: 1.6vw solid transparent;
+    border-right: 1.6vw solid transparent;
+    overflow-y:scroll;
+   
+}
+
+tbody {
+    color: #747488;
+    font-size: 14px;
+}
+
+td {
+    padding: 8px 5px;
+    border-width: 1px 0;
+    border-color: #EFF0F6;
+    border-style: solid;
+    border-bottom: white;
+}
+
+th {
+    font-size: 16px;
+    padding: 24px 8px 18px 0px;
+}
+
+.client {
+    display: flex;
+    align-self: center;
+    cursor: pointer;
+}
+
+.order-icon {
+    margin-right: 5px;
+}
+
+.payment-status {
+    text-align: center;
+    display: block;
+    padding: 0px 8px;
+    color: #1FA7AF;
+    font-weight: 600;
+    background: #EEF6F6;
+    border-radius: 8px;
+    width: 9vw;
+    text-decoration: none;
+    margin-left: -8px;
+}
+
+.clientInfo-name a {
+    text-decoration: none;
+    color: #747488;
+    font-weight: normal;
+}
+
+.clientInfo-name button {
+    background: transparent;
+    font-family: 'Nunito';
+    color: #747488;
+    font-size: 14px;
+}

@@ -1,0 +1,32 @@
+.header {
+    padding-right: calc(8.8% - 20px);
+    padding-left: 5.5%;
+    background: #F8F8F9;
+}
+
+.header-clients {
+    align-items: flex-end;
+    border-bottom: solid 1px #ACD9C5;
+    margin: 40px 40px 20px 20px;
+    padding-left: 50px;
+}
+
+.header span {
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e8750;
+}
+
+.identification-clients {
+    padding-top: 20px;
+    position: relative;
+}
+
+.position-modal {
+    position: relative;
+}
+
+.modal-profile {
+    position: absolute;
+}

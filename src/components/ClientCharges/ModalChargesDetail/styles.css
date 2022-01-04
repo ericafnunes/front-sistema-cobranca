@@ -1,0 +1,136 @@
+.background {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(145, 154, 150, 0.3);
+}
+
+.modal-charges-detail {
+  align-items: left;
+  background-color: #ffffff;
+  border-radius: 3vw;
+  bottom: 0;
+  color: #3f3f55;
+  display: flex;
+  flex-direction: column;
+  font-family: "Nunito";
+  font-size: 2.5vh;
+  justify-content: start;
+  height: fit-content;
+  left: 0;
+  margin: auto;
+  min-height: 60vh;
+  padding: 3vh 3vw;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40vw;
+  z-index: 1;
+}
+
+.charges-detail-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4.1vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-top: 2.5vh;
+  margin-bottom: 2.2vh;
+}
+
+.fields--1 {
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 0px;
+}
+
+.fields--1 label,
+.fields--2 label {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 700;
+}
+
+.fields--1 span,
+.fields--2 span {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 400;
+}
+
+.double--fields {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fields--2 {
+  width: 16.5vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2vh 0px;
+}
+
+.fields--1 label,
+.fields--2 label {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 700;
+}
+
+.fields--1 span,
+.fields--2 span {
+  font-family: "Nunito", sans-serif;
+  font-size: 2.5vh;
+  font-weight: 400;
+}
+
+.vencimento-,
+.valor- {
+  font-size: 2.75vh;
+}
+
+.modal-charges-detail label {
+  font-weight: bold;
+  padding-bottom: 0.5vh;
+}
+
+.modal-charges-detail .icon-folha {
+  height: 5.5vh;
+  padding-right: 1vw;
+}
+
+.descrição- {
+  color: #3f3f55;
+}
+
+.status- {
+  font-size: 2vh;
+  height: stretch;
+  padding: 0vh 1vw;
+  border-radius: 3vw;
+  font-family: "Nunito";
+  pointer-events: none;
+  width: fit-content;
+  background: #DA0175;
+  color: white;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.close-icon- {
+  width: 32px;
+  height: 30px;
+  position: absolute;
+  width: 3.5vh;
+  right: 10%;
+  top: 7%;
+  cursor: pointer;
+}

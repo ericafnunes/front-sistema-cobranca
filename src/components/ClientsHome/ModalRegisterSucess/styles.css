@@ -1,0 +1,39 @@
+.modal-card-2 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 512px;
+    left: 443px;
+    top: 285px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.message-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 18px;
+    margin-top: 35px;
+    color: #343447;
+}
+
+.modal-card-2 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 155px;
+}

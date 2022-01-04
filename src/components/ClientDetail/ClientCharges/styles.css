@@ -1,0 +1,83 @@
+.client-charges-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-actions img{
+    cursor: pointer;
+}
+
+.no-charges{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.client-charges-header h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 18px;
+    color: #3F3F55;
+}
+
+.client-charges-container {
+    padding: 2.4rem;
+    background-color: #fff;
+    border-radius: 3rem;
+}
+
+.client-charges-header button {
+    padding: 4px 56px;
+    width: 252px;
+    height: 33px;
+    background: #DA0175;
+    border-radius: 10px;
+    font-family: Nunito;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F8F8F9;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.client-charges-container .table thead tr th img {
+    width: 23px;
+    height: 20px;
+}
+
+.client-charges-container .table thead tr th {
+    padding-left: 0;
+}
+
+.client-charges-container .table tbody tr td {
+    margin-left: 3px;
+    padding-left: 0;
+}
+
+.client-charges-container .table .td-status,
+.client-charges-container .table .th-status {
+    text-align: center;
+    width: 125px;
+}
+
+.edit-charge {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.badge-status {
+    font-family: Nunito;
+    font-weight: 600;
+    font-size: 14px;
+    color: #971D1D;
+    background: #FFEFEF;
+    border-radius: 8px;
+    padding: 0px 8px;
+}
+
+.table-actions {
+    display: flex;
+    gap: 24px;
+    padding: 12px 0;
+}

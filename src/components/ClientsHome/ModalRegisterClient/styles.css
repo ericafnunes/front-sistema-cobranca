@@ -1,0 +1,233 @@
+.modal-client {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fefefe;
+    border-radius: 2vw;
+    padding: 0px 3vw;
+    align-items: left;
+    justify-content:initial;
+    margin: auto;
+    width: 35vw;
+    height: auto;
+    max-height: 95vh;
+    overflow-y: hidden;
+}
+
+.close-icon {
+    cursor: pointer;
+    position: absolute;
+    width: 3.5vh;
+    right: 10%;
+    top: 7%;
+}
+ 
+.h1-cadastro {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    color: #3F3F55;
+    flex-grow: 0;
+}
+
+.modal-client form {
+    width: 29vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 90vh;
+
+}
+
+.register {
+    height: 2.5vw;
+    margin-right: 1vw;
+}
+
+.fields- {
+    margin-bottom: 1vh;
+}
+
+
+
+.modal-client .fields- input {
+    border: 1px solid #D0D5DD;
+    color: #3F3F55;
+    font-size: 2.5vh;
+    font-family: "Nunito";
+}
+
+.modal-client input {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5vh 1vw;
+    width: 29vw;
+    height: 5vh;
+    left: 0px;
+    top: 26px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin-top: 0.3vh;
+    margin-bottom: 0.1vh;
+    border-radius: 0.5vw;
+    align-self: stretch;
+    flex-grow: 0;
+    border: 1px solid #D0D5DD;
+    font-family: "Nunito", sans-serif;
+    font-size: 2.5vh;
+    color: #3F3F55;
+}
+
+.modal-client label {
+    height: 2vh;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75vh;
+    color: #344054;
+    padding-left: 0.1vw;
+}
+
+.double-field input {
+    width: 14vw;
+    height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vh 1vw;
+    border: 1px solid #D0D5DD;
+    color: #3F3F55;
+}
+
+ ::placeholder {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 3vh;
+    color: #667085;
+}
+
+.btn-client-aplicar, .btn-client-cancel {
+    height: fit-content;
+}
+
+.btn-client-aplicar button {
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+    height: fit-content;
+    width: 14vw;
+    top: 0%;
+    background: #DA0175;
+    border-radius: 0.5vw;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -8px;
+    color: #F8F8F9;
+    border: 1px solid #DEDEE9;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+}
+
+.btn-client-cancel button {
+    margin: 0 auto;
+    all: unset;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+    width: 14vw;
+    top: 0%;
+    background: #F8F8F9;
+    border-radius: 0.5vw;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -8px;
+    color: #0E8750;
+    border: 1px solid #DEDEE9;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+}
+
+.double-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 29vw;
+    margin-bottom: 1vh;
+}
+
+.error-message {
+    height: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5vh;
+    color: #E70000;
+    flex: none;
+    margin-top: 0.1vh;
+}
+
+.backdrop {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(61, 61, 61, 0.48);
+}
+
+#div-city {
+    width: 18vw;
+}
+
+#div-uf {
+    width: 10vw;
+}
+
+.btns {
+    margin: auto;
+    margin-bottom: 1.25vh;
+}
+
+.modal-title {   
+    font-size: 3.5vh;
+    font-weight: 600;
+    font-family: 'Montserrat';
+    margin-top: 6vh;
+    padding-bottom: 1.5vh;
+    color: #3F3F55;
+    display: flex;
+    align-items: center;
+}

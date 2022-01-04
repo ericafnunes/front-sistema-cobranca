@@ -1,0 +1,76 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-content-icon-title {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.title-header-content {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #3F3F55;
+}
+
+.btn-input {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+}
+
+.search-btn {
+    box-shadow: 2px 4px 8px 2px rgba(218,1,117,0.05);
+    font-size: 15px;
+}
+
+.search-btn::placeholder {
+    font-size: 15px;
+}
+
+.btn-add-client {
+    background: #DA0175;
+    border-radius: 10px;
+    width: 19vw;
+    height: 33px;
+    font-family: Nunito;
+    color: #F8F8F9;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-filter {
+    width: 2.8vw;
+    height: 40px;
+    margin: 16px 0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btn-input input {
+    font-family: "Nunito";
+    width: 22vw;
+    height: 39px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 7px 13px 7px 8px;
+    border: transparent;
+    box-shadow: 2px 4px 8px 2px rgb(218 1 117 / 5%);
+}
+
+.btn-input .icon-search {
+    position: absolute;
+    right: 10px;
+}

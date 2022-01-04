@@ -1,0 +1,125 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f8f9;
+}
+.left {
+  width: 40%;
+  background-color: #f0f0f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.right {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #343447;
+}
+
+.right form {
+  padding: 4rem;
+}
+
+.add-data__form input {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid #d0d5dd;
+  width: 32rem;
+  outline: none;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.btn-home {
+  text-align: center;
+  margin: 3rem 0rem 1.5rem 0rem;
+}
+
+.home-login {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media (max-width: 800px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+  }
+
+  .input-label input {
+    font-size: 1.8rem;
+  }
+}
+
+.right-steps-sucess{
+  width: 35rem;
+  height: 1.5rem;
+  position: relative;
+  bottom: -8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.right-steps--first {
+  width: 6.5rem;
+  border-radius: 8rem;
+  height: 0.5rem;
+  background-color: #0e8750;
+}
+.right-steps--second {
+  width: 6.5rem;
+  border-radius: 8rem;
+  height: 0.5rem;
+  background-color: #0e8750;
+}
+.right-steps--third {
+  width: 6.5rem;
+  border-radius: 8rem;
+  height: 0.5rem;
+  background-color: #0e8750;
+}
+
+.pop-sucess {
+  width: 50rem;
+  height: 40rem;
+  
+  background-color: #F0F0F5;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.pop-sucess--content{
+  position: relative;
+}
+
+.pop-sucess--icon{
+  position: absolute;
+  right: 25%;
+  top: 32%;
+}
+
+.sucess-btn button{
+  width: 20rem;
+}

@@ -1,0 +1,14 @@
+.chargesHeader--hr {
+  margin: 0 auto;
+  border: 1px solid #acd9c5;
+  margin-bottom: 19px;
+  position: absolute;
+  left: 8.8vw;
+  top: 17.5vh;
+  width: 88vw;
+}
+
+.chargesHeader{
+    position: relative;
+    left: -20%;
+}

@@ -1,0 +1,89 @@
+    .title-table {
+        height: 58px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .title-table h3 {
+        font-weight: 600;
+        font-size: 18px;
+        color: #3F3F55;
+    }
+    
+    .badge {
+        width: 52px;
+        height: 21px;
+        border-radius: 8px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color: #1FA7AF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #EEF6F6;
+    }
+    
+    .overdue-charges {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgb(172 217 197 / 25%);
+        border-radius: 30px;
+        width: 100%;
+    }
+    
+    .overdue-charges footer {
+        text-align: center;
+        padding: 13px;
+    }
+    
+    .table {
+        font-family: 'Nunito', sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .table thead tr {
+        text-align: left;
+    }
+    
+    .table tbody tr,
+    .table thead tr {
+        border-bottom: 1px solid #EFF0F7;
+    }
+    
+    .table tbody tr td,
+    .table thead tr th {
+        padding-left: 21px;
+    }
+    
+    .table th {
+        height: 66px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 50px;
+        letter-spacing: 0.005em;
+        color: #3F3F55;
+    }
+    
+    .table td {
+        height: 56px;
+        font-family: 'Nunito', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.005em;
+        color: #6E6E85;
+    }
+    
+    .expired {
+        background: #FFEFEF;
+        color: #971D1D;
+    }
+    
+    .futures {
+        background: #FCF6DC;
+        color: #C5A605;
+    }

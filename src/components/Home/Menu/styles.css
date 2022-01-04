@@ -1,0 +1,46 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  background: #f0f0f5;
+  padding-top: 54px;
+  align-items: center;
+ 
+}
+
+.icon-menu {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  align-items: center;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  padding: 0 16px;
+}
+
+.icon-customers {
+  margin-top: 81px;
+}
+
+.icon-charges {
+  margin-top: 81px;
+}
+
+.menu span {
+  color: #343447;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.icon-active {
+  border-right: 1px solid;
+}
+
+.icon-active span {
+  color: #da0175;
+}
+
+.menu img {
+  stroke: #343447;
+}

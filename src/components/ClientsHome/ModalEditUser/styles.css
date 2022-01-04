@@ -1,0 +1,162 @@
+.modal-card{
+  border-radius: 30px;
+  z-index: 1;
+  position: absolute;
+  background-color: #fefefe;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 491px;
+  height: 724px;
+
+}
+
+
+.close-icon {
+  cursor: pointer;
+  position: absolute;
+  width: 19px;
+  top: 45px;
+  right: 53px;
+}
+
+.modal-edit-h1 {
+  height: 30.82px;
+  margin-bottom: 300px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #343447;
+  padding-top: 60px;
+}
+
+.modal-card form {
+  width: 379px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 310px;
+}
+
+.modal-card .fields input {
+  border: 1px solid #d0d5dd;
+  color: #3F3F55;
+  font-size: 16px;
+  font-family: "Nunito";
+}
+
+.modal-card input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 14px;
+  position: static;
+  width: 379px;
+  height: 44px;
+  left: 0px;
+  top: 26px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  margin: 6px 0px;
+  border-radius: 8px;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+
+}
+
+.modal-card label {
+  width: 44px;
+  height: 20px;
+  left: 0px;
+  top: 0px;
+  position: relative;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+  padding-left: 4px;
+  margin-bottom: -50px;
+}
+
+.space-between input {
+  position: static;
+  width: 178px;
+  height: 44px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px solid #d0d5dd;
+}
+
+::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+
+.button-post button {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 33px;
+  left: calc(50% - 160px / 2 - 0.5px);
+  top: calc(50% - 33px / 2 - 0.5px);
+  color: #f8f8f9;
+  background: #da0175;
+  border-radius: 10px;
+  margin-top: 310px;
+  border: 1px solid #dedee9;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+ .eye-2 {
+  position: absolute;
+  margin-top: -37px;
+  margin-left: 350px;
+} 
+
+#div-between-1 {
+  width: 178px;
+  height: 44px;
+}
+
+#div-between-2 {
+  width: 178px;
+  height: 44px;
+}

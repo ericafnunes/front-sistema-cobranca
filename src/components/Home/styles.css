@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    background: #F8F8F9;
+    overflow-x: hidden;
+    
+}
+
+.card-home {
+    padding: 44px 169px 37px 70px;
+    width: 100vw;
+    height: 100%;  
+    
+}
+
+.card-home--header{
+    overflow: hidden;
+    padding: 40px 0;
+    
+    
+}
+
+.card-home hr {
+    border: 1px solid #ACD9C5;
+    margin-top: 24px;
+    margin-bottom: 19px;
+    width: 116%;
+    margin-left: -50px;
+}
+
+

@@ -1,0 +1,80 @@
+.clientInfo-container {
+  width: 100%;
+  padding: 2.4rem;
+  color: #3f3f55;
+  background-color: #fff;
+  border-radius: 3rem;
+}
+
+.clientInfo-container h2 {
+  font-family: "Montserrat";
+  font-size: 1.8rem;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-info button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25.2rem;
+  height: 3.3rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  font-family: "Nunito";
+  font-size: 1.6rem;
+  color: #0e8750;
+  border: 1px solid #d2d2d3;
+}
+
+.user-info {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.user-info p {
+  font-size: 1.7rem;
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+
+.user-info span {
+  font-size: 1.4rem;
+}
+
+.user-info--second {
+  margin-top: 5rem;
+  gap: 10rem;
+  font-family: "Nunito";
+}
+
+.user-info__column {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+ 
+}
+
+/* .user-info__column + .user-info__column {
+  padding-left: 10rem;
+} */
+
+.last-info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  min-width: 40%;
+}
+
+.user-info__column {
+  margin-top: auto;
+}
+
+.user-info__column span {
+  white-space: nowrap;
+}

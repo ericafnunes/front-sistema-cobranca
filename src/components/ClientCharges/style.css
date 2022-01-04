@@ -1,0 +1,72 @@
+.charges-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+.img-notfound{
+    text-align: center;
+    padding-bottom: 15px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.img-notfound img{
+    width: 60%;
+
+}
+
+.menu-charges {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #f8f8f9;
+}
+
+.section-charges {
+    padding: 0% 8% 5.5% 5.5%;
+    width: 92vw;
+    height: calc(100vh - 115px);
+    background: #F8F8F9;
+}
+
+.edit-delete-icons {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.payment-status--charges {
+    text-align: center;
+    display: block;
+    color: #1FA7AF;
+    font-weight: 600;
+    background: #EEF6F6;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: -0.8rem;
+    margin-right: 3.0rem;
+    font-size: 14px;
+}
+
+
+
+.pendent {
+    background-color: #FCF6DC;
+    color: #C5A605;
+}
+
+.overdue {
+    background-color: #FFEFEF;
+    color: #971D1D;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 8px;
+    margin-left: -0.8rem;
+}
+
+.hidden{
+    display: none;
+}

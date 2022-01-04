@@ -1,0 +1,76 @@
+.modal-card-5 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    left: 443px;
+    top: 285px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.message-h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #CC7800;
+}
+
+.modal-card-5 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 220px;
+    margin-top: 70px;
+}
+
+.butn-delet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 16px;
+}
+
+.butn-delet button{
+    margin: 16px;
+    margin-top: 4px;
+}
+
+.butn-delet .no{
+    width: 100px;
+    height: 24px;
+    background: #F2D6D0;
+    border-radius: 4px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #AE1100;
+    }
+
+.butn-delet .yes{
+    width: 100px;
+    height: 24px;
+    background: #ACD9C5;
+    border-radius: 4px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #034A2A;
+}

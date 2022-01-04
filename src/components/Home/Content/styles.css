@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-abstract {
+    display: flex;
+    gap: 32px;
+}
+
+.detailed-charges {
+    display: flex;
+    gap: 8px;
+    margin-top: 24px;
+    gap: 32px;
+}
+
+.customrs {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.btn-see-all {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #DA0175;
+    background: transparent;
+    height: 48px;
+}
+
+.card-defaulters footer {
+    padding: 13px;
+}

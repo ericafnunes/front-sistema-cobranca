@@ -1,0 +1,27 @@
+.modal-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+    position: absolute;
+    width: 92px;
+    height: 51px;
+    top: 55px;
+    left: 77px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.arrow {
+    position: absolute;
+    top: -10px;
+    left: 11.96%;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #FFFFFF;
+}

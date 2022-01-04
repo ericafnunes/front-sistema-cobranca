@@ -1,0 +1,363 @@
+.modal-charges {
+    align-items: left;
+    background-color: #fefefe;
+    border-radius: 2vw;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: start;
+    left: 0;
+    margin: auto;
+    min-height: 90vh;
+    padding: 0 2.5vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35vw;
+    z-index: 1;
+}
+
+.cobranca {
+    font-size: 3.5vh;
+    font-weight: 600;
+    font-family: "Montserrat";
+    margin-top: 6vh;
+    padding-bottom: 1.75vh;
+    display: flex;
+    align-items: center;
+    color: #3F3F55;
+}
+
+.modal-charges form {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 90vh;
+}
+
+.modal-charges .fields input {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vh 1vw;
+    width: 30vw;
+    height: 5vh;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    margin: 0.2vh 0;
+    align-self: stretch;
+    flex-grow: 0;
+    border: 1px solid #d0d5dd;
+    font-family: "Nunito", sans-serif;
+    font-size: 2vh;
+    color: #3f3f55;
+}
+
+.modal-charges input {
+    border-radius: 0.5vw;
+}
+
+.modal-charges .fields .input-name {
+    background-color: #e5e5e58a;
+    width: 30vw;
+    border-radius: 0.5vw;
+}
+
+.modal-charges form textarea {
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5vh 1.5vw;
+    position: static;
+    width: 30vw;
+    height: 12vh;
+    background: #ffffff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 0.2vh;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.75vh;
+    color: #3f3f55;
+    border: 1px solid #d0d5dd;
+    border-radius: 0.5vw;
+}
+
+.modal-charges label {
+    height: 4;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2vh;
+    color: #344054;
+}
+
+.space-between input {
+    width: 14.6vw;
+    height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 1vw;
+    border: 1px solid #d0d5dd;
+    color: #3f3f55;
+}
+
+#div-radio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 1vh 0;
+    align-self: stretch;
+    flex-grow: 0;
+    color: #3f3f55;
+    background: #f0f0f5;
+    width: 30vw;
+    margin-top: 1vh;
+    border-radius: 0.7vw;
+}
+
+input[type="radio"] {
+    -ms-transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vh;
+}
+
+#label {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#label input {
+    justify-content: left;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    height: 1.75vw;
+    width: 1.75vw;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.status-span {
+    margin-left: 1.75vw;
+}
+
+#label:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+#label input:checked~.checkmark {
+    background-color: #0e8750;
+}
+
+.checkmark:after {
+    content: "";
+    position: relative;
+    display: none;
+}
+
+#label input:checked~.checkmark:after {
+    display: block;
+}
+
+#label .checkmark:after {
+    top: 0.5vh;
+    left: 0.4vw;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-image: url("../../../assets/che.svg");
+    background-size: cover;
+}
+
+#status {
+    margin-top: 1.7vh;
+}
+
+.registerChargesBtn, .btns-{
+    display: flex;
+    gap: 10px;
+}
+
+.charge-aplicar button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 0px;
+    height: 5vh;
+    width: 14vw;
+    left: calc(50% - 231.5px / 2 + 127.75px);
+    top: 0%;
+    background: #da0175;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -8px;
+    color: #f8f8f9;
+    border: 1px solid #dedee9;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+.charges-cancel button {
+    margin: 0 auto;
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 0px;
+    height: 5vh;
+    width: 14vw;
+    top: 0%;
+    background: #f8f8f9;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: -8px;
+    color: #0e8750;
+    border: 1px solid #dedee9;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+.modal-charges input {
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    padding: 1vh 1vw;
+    left: 0px;
+    align-self: stretch;
+    flex-grow: 0;
+    border: 1px solid #d0d5dd;
+    color: #3f3f55;
+    font-size: 2.5vh;
+}
+
+#label {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+}
+
+::placeholder {
+    font-family: Inter;
+    font-size: 2vh;
+    color: #667085;
+}
+
+.btn-post-client button {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 33px;
+    left: calc(50% - 160px / 2 - 0.5px);
+    top: calc(50% - 33px / 2 - 0.5px);
+    color: #f8f8f9;
+    background: #da0175;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-right: 90px;
+}
+
+.space-between input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.error-message,
+#errorEditClient {
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5vh;
+    color: #e70000;
+    flex: none;
+    margin-top: 1vh;
+    font-size: 1.5vh;
+}
+
+.icon-folha {
+    height: 5vh;
+    margin-right: 1.5vw;
+}
+
+.backdrop {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(145, 154, 150, 0.3);
+}
+
+.fields {
+    margin-bottom: 1vh;
+}
+
+.paid {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: flex-start;
+    border-radius: 10px;
+    background: #f0f0f5;
+    margin: 8px 0 14px 0px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vh;
+    line-height: 24px;
+}
+
+.div-pg {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,169 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+ 
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f8f9;
+}
+
+.left-login {
+  width: 40%;
+  background-color: #f0f0f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.left-login img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+}
+.right-login {
+  width: 60%;
+  height: 68.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #343447;
+}
+
+.right-login h1{
+  margin-bottom: 2rem;
+}
+
+.right form {
+  padding: 4rem;
+}
+
+.add-data__form input {
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: 1px solid #d0d5dd;
+  width: 32rem;
+  outline: none;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.btn-home {
+  text-align: center;
+  margin: 3rem 0rem 1.5rem 0rem;
+}
+
+.home-login {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.home-login a{
+  margin-left: 0.39rem;
+}
+
+@media (max-width: 886px) {
+  .left-login {
+    display: none;
+  }
+
+  .right-login {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+  }
+
+  .input-label input {
+    font-size: 1.8rem;
+  }
+}
+
+
+@media (max-width: 360px){
+  .add-data__form input.input-login {
+    width: 25rem;
+    padding: 0.9rem 0.4rem;
+    font-size: 1.6rem;
+  }
+}
+
+
+.right-steps {
+  width: 35rem;
+  height: 1.5rem;
+  position: relative;
+  bottom: -15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.right-steps--first {
+  width: 6.5rem;
+  border-radius: 8rem;
+  height: 0.5rem;
+  background-color: #0e8750;
+}
+.right-steps--second {
+  width: 6.5rem;
+  border-radius: 8rem;
+  height: 0.5rem;
+  background-color: #0e8750;
+}
+.right-steps--third {
+  width: 6.5rem;
+  border-radius: 8rem;
+  height: 0.5rem;
+  background-color: #0e8750;
+}
+
+.pop-sucess {
+  width: 50rem;
+  height: 40rem;
+  
+  background-color: #F0F0F5;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.pop-sucess--content{
+  position: relative;
+}
+
+.pop-sucess--icon{
+  position: absolute;
+  right: 25%;
+  top: 32%;
+}
+
+.input-label--forgot__password{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.input-label--forgot__password a{
+  font-size: 1.2rem;
+}
+
+.homeImage-text{
+  text-align: center;
+  width: 35rem;
+  color: #034A2A;
+  font-weight: 700;
+  position: absolute;
+  top: 20%;
+}
