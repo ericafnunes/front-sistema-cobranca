@@ -15,8 +15,8 @@ const updateValidation = yup.object().shape({
   name: yup.string().required("Este campo deve ser preenchido"),
   email: yup
     .string()
-    .email("Este e-mail não é válido.")
-    .required("Este campo deve ser preenchido."),
+    .email("Este e-mail não é válido")
+    .required("Este campo deve ser preenchido"),
   password: yup.string(),
 });
 
